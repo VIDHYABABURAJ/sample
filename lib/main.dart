@@ -11,9 +11,6 @@ class MyApp extends StatelessWidget {
    String _s="Maths";
    int  _m=98;
 
-
-
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
