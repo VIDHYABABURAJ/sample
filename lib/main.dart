@@ -7,13 +7,9 @@ void main() {
 class MyApp extends StatelessWidget {
    MyApp({super.key});
 
-String a="hello world";
-
-
-
-int b=1;
-double c=1.55;
-
+   String _n="Riya";
+   String _s="Maths";
+   int  _m=98;
 
 
 
@@ -34,7 +30,7 @@ double c=1.55;
       ),
       home: Scaffold(
         body: Center(
-          child: Text('helfllllo $b '
+          child: Text( _n
             ,style: TextStyle(fontSize: 30),),
         ),
       )
